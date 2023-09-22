@@ -1,0 +1,41 @@
+name: upload_file_practicle
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  mocktail: ^1.0.0
+  http: ^1.1.0
+  flutter_bloc: ^8.1.3
+  bloc: ^8.1.2
+  get_it: ^7.6.4
+
+  file_picker: ^5.5.0
+  quill_html_editor: ^2.2.6
+  dotted_border: ^2.0.0+3
+  permission_handler: ^11.0.0
+  path: ^1.8.3
+
+
+  ## Local Storage Packages ##
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  bloc_test: ^9.1.4
+  hive_generator: ^2.0.0
+  build_runner: ^2.3.3
+
+flutter:
+  uses-material-design: true
